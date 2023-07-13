@@ -1,0 +1,25 @@
+{
+  "name": "ai-nmp-cyclops",
+  "version": "1.0.0",
+  "description": "AI Generated: Debug utility for watching and reporting changes in a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newmediapilot/nmp-ai-cyclops.git"
+  },
+  "author": "Marcin Zajkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newmediapilot/nmp-ai-cyclops/issues"
+  },
+  "homepage": "https://github.com/newmediapilot/nmp-ai-cyclops#readme",
+  "keywords": [
+    "ai",
+    "utility",
+    "watcher",
+    "debugger"
+  ]
+}
