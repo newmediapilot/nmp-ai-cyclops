@@ -2,9 +2,11 @@
   "name": "ai-nmp-cyclops",
   "version": "1.0.0",
   "description": "AI Generated: Debug utility for watching and reporting changes in a file.",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node main.js test-file.json",
+    "reset": "rm -rf node_modules && npm i"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,15 @@
     "utility",
     "watcher",
     "debugger"
-  ]
+  ],
+  "dependencies": {
+    "ascii-spinner": "^1.0.1",
+    "chalk": "^5.3.0",
+    "chokidar": "^3.5.3",
+    "cli-spinner": "^0.2.10",
+    "colors": "^1.4.0",
+    "diff": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "ora": "^6.3.1"
+  }
 }
